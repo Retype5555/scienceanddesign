@@ -1,5 +1,5 @@
 .intro h1 {
-  margin-bottom: 0 !important;
+  margin-bottom: var(--spacing-xlarge) !important;
 }
 
 body {
