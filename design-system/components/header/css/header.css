@@ -99,6 +99,7 @@ header h1 {
   line-height: initial;
   flex: 1;
   width: max-content;
+  font-weight: 400;
 }
 
 header h1 a {
