@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   .cards .contentRowContent .contentItem {
     border: var(--border-lm);
   }
@@ -8,7 +8,7 @@
 
   .cards .contentRowContent .contentItem {
     border: var(--border-dm);
-  }
+  } */
 }
 
 .tertiaryContent .contentItem {
@@ -110,7 +110,7 @@ h3 + .icon + a {
 }
 
 .cards .contentRowContent .contentItem {
-  padding: var(--spacing-large) var(--spacing-medium) var(--spacing-medium) var(--spacing-medium) !important;
+  padding: var(--spacing-xxlarge) var(--spacing-medium)  !important;
   margin: 0 var(--spacing-base);
   border-radius: var(--radius-soft);
 }

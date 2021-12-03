@@ -134,3 +134,7 @@ ol > ul {
     padding-right: var(--spacing-medium) !important;
   }
 }
+
+@media only screen and (max-width: 480px) {
+
+}

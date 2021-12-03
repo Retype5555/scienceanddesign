@@ -13,6 +13,10 @@
     border-bottom: var(--border-lm);
   }
 
+  .smallTable th, td, tr {
+    border-bottom: none;
+  }
+
   th {
     background-color: var(--color-light);
   }
@@ -39,12 +43,12 @@
   }
 
   .smallTable th {
-    background-color: var(--color-lm);
+    background-color: var(--color-light);
   }
 
   .smallTable .window {
-    border: var(--border-lm);
-    box-shadow: 0 20px 40px -20px rgba(0,0,0,0.1);
+    /* border: var(--border-lm); */
+    box-shadow: 0 40px 80px -20px rgba(0,0,0,0.15);
   }
 
   .smallTable .listUtilities {
@@ -53,6 +57,10 @@
 
   .smallTable tr:first-of-type {
     background-color: white;
+  }
+
+  .emptyRow {
+    background-color: var(--color-light);
   }
 }
 
@@ -130,12 +138,19 @@ tr:last-of-type {
 
 .smallTable table {
   border: none;
+  font-family: 'Noto Serif', serif;
+  text-transform: inherit;
 }
 
 .smallTable .window {
   position: inherit;
   border-bottom: none;
   border-radius: var(--radius-soft);
+  border-top: none;
+}
+
+.smallTable tr:last-of-type td {
+  border-bottom: none;
 }
 
 .smallTable .listUtilities {
@@ -220,6 +235,11 @@ th, td {
 
 .smallTable th, td {
   padding: var(--spacing-small) var(--spacing-medium) !important;
+  opacity: 1 !important;
+}
+
+.smallTable tr {
+  border-bottom: none !important;
 }
 
 .smallTable h3 + p {
@@ -297,9 +317,19 @@ th, td {
     opacity: 1;
   }
 
+  .smallTable td.strong:first-of-type {
+    font-size: var(--font-size-body) !important;
+  }
+
   tr:first-of-type {
     display: none;
   }
+
+  .smallTable td.strong:nth-of-type(2n){
+    font-size: var(--font-size-small);
+    font-weight: normal;
+  }
+
 
   td {
     display: block;
