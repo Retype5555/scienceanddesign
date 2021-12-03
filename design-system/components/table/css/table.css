@@ -13,10 +13,6 @@
     border-bottom: var(--border-lm);
   }
 
-  .smallTable th, td, tr {
-    border-bottom: none;
-  }
-
   th {
     background-color: var(--color-light);
   }
@@ -121,6 +117,10 @@
     box-shadow: 0 40px 80px -20px rgba(0,0,0,0.2);
   }
 
+}
+
+.smallTable th, td, tr {
+  border-bottom: none;
 }
 
 p + table {
