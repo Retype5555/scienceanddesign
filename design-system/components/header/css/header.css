@@ -176,6 +176,7 @@ nav ul li:first-of-type {
 
 nav ul li:last-of-type {
   margin-bottom: 0;
+  padding-right: 0;
 }
 
 .status {
