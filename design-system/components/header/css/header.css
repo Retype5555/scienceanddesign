@@ -109,6 +109,10 @@ header h1 a:hover {
   text-decoration: underline;
 }
 
+.indicator {
+  font-size: var(--font-size-xxxsmall);
+}
+
 .logoMark {
   width: 2.5rem;
   height: 2.5rem;
