@@ -1,12 +1,19 @@
 @font-face {
-  font-family: "Rubik";
-  src: url("../assets/fonts/sans/Rubik-VariableFont_wght.woff2") format("woff2"),
-       url("../assets/fonts/sans/Rubik-VariableFont_wght.woff") format("woff");
+  font-family: "Rubik Regular";
+  src: url("../assets/fonts/sans/regular.woff2") format("woff2"),
+       url("../assets/fonts/sans/regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../assets/fonts/sans/light.woff2") format("woff2"),
+       url("../assets/fonts/sans/light.woff") format("woff");
+}
+
 @font-face {
   font-family: "Noto Serif";
-  src: url("../assets/fonts/serif/NotoSerif-Regular.woff2") format("woff2"),
-       url("../assets/fonts/serif/NotoSerif-Regular.woff") format("woff");
+  src: url("../assets/fonts/serif/regular.woff2") format("woff2"),
+       url("../assets/fonts/serif/regular.woff") format("woff");
 }
 
 
@@ -37,7 +44,7 @@
 }
 
 :root {
-  font-family: var(--font-sans);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -45,7 +52,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  font-family: var(--font-sans);
+  font-family: var(--font-sans-light);
 }
 
 h1, h2, h3, h4 {

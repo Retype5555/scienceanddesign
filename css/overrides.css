@@ -30,9 +30,9 @@
   background-color: #64D8EF !important;
 }
 
-header h1 {
-  color: #2B5C88;
-}
+*/ header h1 {
+    font-family: var(--font-sans);
+} /*
 
 .btn {
   background-color: #2B5C88;
