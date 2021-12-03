@@ -61,8 +61,7 @@
 }
 
 .banner.wrapper {
-  margin-left: var(--spacing-base);
-  margin-right: var(--spacing-base);
+  width: 95vw;
 }
 
 .banner h2 {
