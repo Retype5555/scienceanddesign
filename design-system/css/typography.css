@@ -8,9 +8,9 @@
     color: var(--font-color-light);
   }
 
-  p.hint {
+  /* p.hint {
     color: #2B5C88;
-  }
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
