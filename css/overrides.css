@@ -1,21 +1,44 @@
-.intro h1 {
-  margin-bottom: var(--spacing-xlarge) !important;
+@media (prefers-color-scheme: light) {
+  .cards .contentItem {
+    background-color: white;
+    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.1);
+  }
+
+  .intro {
+    background-color: white;
+  }
 }
 
-body {
-  background-color: rgba(0,0,0,0.025);
+@media (prefers-color-scheme: dark) {
+
+  .cards .contentItem {
+    background-color: var(--color-dm-shade);
+    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.2);
+  }
+}
+
+/* .intro h1 {
+  text-shadow: var(--shadow-lm);
+  color: #2B5C88;
 }
 
 .intro {
-  background-color: white;
+  background-color: #64D8EF !important;
+} */
+
+/* header {
+  background-color: #64D8EF !important;
 }
 
-.cards .contentItem {
-  background-color: white;
-  box-shadow: 0 30px 40px -20px rgba(0,0,0,0.1);
+header h1 {
+  color: #2B5C88;
 }
 
-@media only screen and (max-width: 1440px) {
+.btn {
+  background-color: #2B5C88;
+} */
+
+@media only screen and (max-width: 1024px) {
 .intro h1 {
     font-size: calc(var(--font-size-1) * .8) !important;
     line-height: calc(var(--line-height-1) * .8) !important;

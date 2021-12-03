@@ -70,6 +70,10 @@
     background-color: var(--color-dark-1);
   }
 
+  .emptyRow {
+    background-color: var(--color-dm-shade-1) !important;
+  }
+
   table {
     color:var(--font-color-light);
     background-color:var(--color-dark);
@@ -106,6 +110,15 @@
 
   .smallTable th {
     background-color: var(--color-dm);
+  }
+
+  .smallTable tr {
+    background-color: var(--color-dm-shade);
+  }
+
+  .smallTable .window {
+    /* border: var(--border-lm); */
+    box-shadow: 0 40px 80px -20px rgba(0,0,0,0.2);
   }
 
 }
