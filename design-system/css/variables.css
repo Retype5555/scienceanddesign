@@ -1,7 +1,7 @@
 :root {
   /* TYPOGRAPHY */
-  --font-sans: Helvetica, Arial, sans-serif;
-  --font-serif: Georgia, Times, serif;
+  --font-sans: "Rubik", Helvetica, Arial, sans-serif;
+  --font-serif: "Noto Serif", Georgia, Times, serif;
 
   --font-size-logo: 1.125rem;
   --font-size-body: 1rem;
