@@ -351,4 +351,13 @@ th, td {
     font-size: var(--font-size-small);
     opacity: .75;
   }
+
+  .smallTable td {
+    padding-top: var(--spacing-xxxsmall) !important;
+    padding-bottom: var(--spacing-xxxsmall) !important;
+  }
+
+  .emptyRow {
+    padding: 0 !important;
+  }
 }

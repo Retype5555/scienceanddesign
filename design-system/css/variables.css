@@ -56,6 +56,7 @@
 
 /* SPACING */
 
+  --spacing-xxxsmall: .125rem;
   --spacing-xxsmall: .25rem;
   --spacing-xsmall: .5rem;
   --spacing-small: .75rem;
