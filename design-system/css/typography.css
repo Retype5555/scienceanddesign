@@ -187,7 +187,7 @@ p .highlight {
   font-size: var(--font-size-small);
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1280px) {
   h1 {
       font-size: calc(var(--font-size-1) * .9);
       line-height: calc(var(--line-height-1) * .9);
