@@ -192,6 +192,10 @@ img.border {
   height: 2.5rem;
 }
 
+.tertiaryContent h2 {
+  margin-bottom: var(--spacing-xxlarge);
+}
+
 .emoji {
   font-size: var(--font-size-emoji) !important;
   line-height: inherit!important;

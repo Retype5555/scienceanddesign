@@ -84,6 +84,10 @@ h3 + .icon + a {
   display: inherit;
 }
 
+.contentRow .contentRowContent img {
+  width: 100%;
+}
+
 .contentRow .description .btn {
   display: block;
   width: max-content;

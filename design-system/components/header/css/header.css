@@ -162,6 +162,8 @@ nav ul {
 nav ul li {
   display: inline;
   margin-left: 0 !important;
+  font-size: var(--font-size-small);
+  padding: 0 var(--spacing-xsmall) 0 var(--spacing-xsmall);
 }
 
 nav .btn {
@@ -176,10 +178,14 @@ nav ul li:last-of-type {
   margin-bottom: 0;
 }
 
+.status {
+  font-style: italic;
+}
+
 nav a {
-  font-size: var(--font-size-small);
+  /* font-size: var(--font-size-small); */
   text-decoration: none;
-  padding: 0 var(--spacing-xsmall) calc(var(--spacing-large) + 2px) var(--spacing-xsmall);
+  /* padding: 0 var(--spacing-xsmall) calc(var(--spacing-large) + 2px) var(--spacing-xsmall); */
 }
 
 nav a.active {
