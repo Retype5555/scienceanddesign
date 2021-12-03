@@ -261,6 +261,7 @@ th, td {
 
 .smallTable .strong {
   font-size: var(--font-size-body);
+  font-weight: normal;
 }
 
 .smallTable td.strong:last-of-type {

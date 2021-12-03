@@ -18,6 +18,12 @@
   .post {
     border-bottom: var(--border-lm);
   }
+
+  .banner {
+    background-color: white !important;
+    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.1);
+
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +46,27 @@
   .post {
     border-bottom: var(--border-dm);
   }
+
+  .banner {
+    background-color: var(--color-dm-shade);
+    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.2);
+
+  }
+}
+
+.banner {
+  padding-top: var(--spacing-xxlarge);
+  padding-bottom: calc(var(--spacing-xxlarge)*1.5);
+  border-radius: var(--radius-soft);
+}
+
+.banner.wrapper {
+  margin-left: var(--spacing-base);
+  margin-right: var(--spacing-base);
+}
+
+.banner h2 {
+  margin-top: 0;
 }
 
 .post {
@@ -239,6 +266,10 @@ img.border {
 
   .noImage .description {
     width: 100%;
+  }
+
+  .banner {
+    padding-bottom: var(--spacing-xlarge);
   }
 
 }
