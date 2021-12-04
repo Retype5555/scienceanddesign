@@ -222,6 +222,14 @@ img.border {
   margin-bottom: var(--spacing-xxlarge);
 }
 
+.cards.tertiaryContent h2 {
+  margin-bottom: var(--spacing-medium) !important;
+}
+
+.cards h3 {
+  margin-bottom: var(--spacing-xlarge) !important;
+}
+
 .emoji {
   font-size: var(--font-size-emoji) !important;
   line-height: inherit!important;
@@ -271,6 +279,13 @@ img.border {
     padding-bottom: var(--spacing-xlarge);
   }
 
+}
+
+@media only screen and (max-width: 480px) {
+  .banner.wrapper {
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+  }
 }
 
 @media only screen and (max-width: 375px) {
