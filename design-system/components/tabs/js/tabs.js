@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     $('.nonprofitTab').addClass('selected');
     $('.smbTab').removeClass('selected');
-    $('.entertiseTab').removeClass('selected');
+    $('.enterpriseTab').removeClass('selected');
 
     $('.nonprofitTable').removeClass('hidden');
     $('.smbTable').addClass('hidden');
