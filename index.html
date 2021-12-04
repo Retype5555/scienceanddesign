@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="design-system/js/jquery-min.js"></script>
+	<script src="design-system/components/tabs/js/tabs.js"></script>
 	<script src="design-system/components/header/js/header.js"></script>
 	<script src="design-system/components/hint/js/hint.js"></script>
 	<script src="design-system/components/footer/js/footer.js"></script>
@@ -97,8 +98,44 @@
 	<section id="pricing" class="content cards centeredContent contentRow tertiaryContent wrapper">
 		<h2>Pricing</h2>
 		<p>We ❤️ non-profits and open-source projects! Applicable clients will receive a discounted rate on all listed prices.</p>
+		<section class="tabs pillTabs wrapper">
+			<nav>
+				<a class="nonprofitTab">Non-Profit</a>
+				<a class="selected smbTab">Small Business</a>
+				<a class="enterpriseTab">Enterprise</a>
+			</nav>
+		</section>
 		<h3>Monthly Retainers</h3>
-		<div class="contentRowContent">
+
+		<!-- NON-PROFIT PRICING -->
+
+		<div class="contentRowContent nonprofitRetainer hidden">
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>1 day/mo</h4>
+					<p>Ideal for quick feedback, heuristic reviews, etc.</p>
+					<p class="strong">$500</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>5 days/mo</h4>
+					<p>Ideal for small projects and ongoing engagements.</p>
+					<p class="strong">$2,500</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>10 days/mo</h4>
+					<p>Ideal for more complex projects and ongoing engagements.</p>
+					<p class="strong">$5,000</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- SMALL BUSINESS PRICING -->
+
+		<div id="smallBusiness" class="smallBusinessRetainer contentRowContent">
 			<div class="contentItem blockContent">
 				<div class="description">
 					<h4>1 day/mo</h4>
@@ -121,10 +158,184 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- ENTERPRISE PRICING -->
+
+		<div id="enterprise" class="contentRowContent enterpriseRetainer hidden">
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>1 day/mo</h4>
+					<p>Ideal for quick feedback, heuristic reviews, etc.</p>
+					<p class="strong">$1,500</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>5 days/mo</h4>
+					<p>Ideal for small projects and ongoing engagements.</p>
+					<p class="strong">$7,500</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h4>10 days/mo</h4>
+					<p>Ideal for more complex projects and ongoing engagements.</p>
+					<p class="strong">$15,000</p>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section class="content wrapper">
-		<div class="tableContent centeredContent smallTable">
+		<div class="tableContent nonprofitTable hidden centeredContent smallTable">
+			<h3>Project Pricing</h3>
+			<p>All figures are based on time estimates. Prices may vary depending on the project.</p>
+			<div class="window">
+				<table>
+					<tr>
+						<th>Service</th>
+						<th>Time</th>
+						<th>Price</th>
+					</tr>
+					<tr>
+						<td class="strong">🤝 General Consulting</td>
+						<td class="strong">1 day - 1 week</td>
+						<td class="strong">$500 - $2,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🧠 Interface or Interaction Design</td>
+						<td class="strong">6 weeks</td>
+						<td class="strong">$15,000</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Wireframes</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Interface Design</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Interaction Design</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Prototyping</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Iterations</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">📋 Evaluative Research</td>
+						<td class="strong">1 month</td>
+						<td class="strong">$10,000</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Recruiting</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Conducting</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Analysis</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🌎 Web Design</td>
+						<td class="strong">7 weeks</td>
+						<td class="strong">$17,500</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Wireframes</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Interface Design</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Content</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>HTML & CSS</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Visual Design</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr>
+						<td>Iterations</td>
+						<td>5 days</td>
+						<td>$2,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🔥 Rush Fee</td>
+						<td class="strong"></td>
+						<td class="strong">20%</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="tableContent smbTable centeredContent smallTable">
 			<h3>Project Pricing</h3>
 			<p>All figures are based on time estimates. Prices may vary depending on the project.</p>
 			<div class="window">
@@ -272,7 +483,154 @@
 				</table>
 			</div>
 		</div>
-
+		<div class="tableContent enterpriseTable hidden centeredContent smallTable">
+			<h3>Project Pricing</h3>
+			<p>All figures are based on time estimates. Prices may vary depending on the project.</p>
+			<div class="window">
+				<table>
+					<tr>
+						<th>Service</th>
+						<th>Time</th>
+						<th>Price</th>
+					</tr>
+					<tr>
+						<td class="strong">🤝 General Consulting</td>
+						<td class="strong">1 day - 1 week</td>
+						<td class="strong">$1,500 - $7,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🧠 Interface or Interaction Design</td>
+						<td class="strong">6 weeks</td>
+						<td class="strong">$45,000</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Wireframes</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Interface Design</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Interaction Design</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Prototyping</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Iterations</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">📋 Evaluative Research</td>
+						<td class="strong">1 month</td>
+						<td class="strong">$30,000</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Recruiting</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Conducting</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Analysis</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🌎 Web Design</td>
+						<td class="strong">7 weeks</td>
+						<td class="strong">$52,500</td>
+					</tr>
+					<tr>
+						<td>Planning</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Wireframes</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Interface Design</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Content</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>HTML & CSS</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Visual Design</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr>
+						<td>Iterations</td>
+						<td>5 days</td>
+						<td>$7,500</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="strong">🔥 Rush Fee</td>
+						<td class="strong"></td>
+						<td class="strong">20%</td>
+					</tr>
+					<tr class="emptyRow">
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
 	</section>
 
 	<!-- CONTACT -->
