@@ -116,7 +116,7 @@
   border-radius: 50vw;
   margin: 0 var(--spacing-xxsmall);
   font-size: var(--font-size-small) !important;
-  padding: var(--spacing-small);
+  padding: var(--spacing-small) var(--spacing-base);
   line-height: var(--line-height-small);
 }
 
