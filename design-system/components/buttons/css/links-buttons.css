@@ -14,15 +14,12 @@
 
   .primaryBtn {
     background-color: rgba(51, 51, 51, 1);
+    color: #f2f2f2;
   }
 
   .primaryBtn:hover {
     background-color: rgba(0,0,0,.9);
     color: white;
-  }
-
-  a.primaryBtn {
-    color: #f2f2f2;
   }
 }
 
@@ -42,14 +39,11 @@
 
   .primaryBtn {
     background-color: rgba(255, 255, 255, .85);
+    color: #333;
   }
 
   .primaryBtn:hover {
     background-color: rgba(255, 255, 255, .95);
-  }
-
-  a.primaryBtn {
-    color: #333;
   }
 }
 
@@ -75,6 +69,7 @@
 .btn:hover {
     box-shadow: 0 .125rem .5rem rgba(0,0,0,0.1);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .firstAction {
