@@ -146,7 +146,7 @@ h3 + .icon + a {
 }
 
 .cards .contentRowContent .contentItem {
-  padding: var(--spacing-xlarge) var(--spacing-medium)  !important;
+  padding: var(--spacing-xlarge) !important;
   margin: 0 var(--spacing-base);
   border-radius: var(--radius-soft);
 }
