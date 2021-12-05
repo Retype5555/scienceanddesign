@@ -129,7 +129,7 @@
 }
 
 .tertiaryContent .pillTabs {
-  margin: var(--spacing-xlarge) 0;
+  margin: var(--spacing-large) 0 var(--spacing-xlarge) 0;
 }
 
 .tabs a.selected {

@@ -45,9 +45,9 @@
   margin-bottom: 0 !important;
 }
 
-.priceEx {
+/* .priceEx {
   margin-top: calc(var(--spacing-xlarge) * 2);
-}
+} */
 
 .priceEx .description div {
   flex-grow: 1;
@@ -57,6 +57,10 @@
 
 .cards .description h4 {
   margin-bottom: var(--spacing-base) !important;
+}
+
+.cards h3 {
+  margin-top: calc(var(--spacing-xxlarge) * 1.5) !important;
 }
 
 .contentRow h3 {
