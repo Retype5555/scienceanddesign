@@ -120,7 +120,8 @@ header h1 a:hover {
   /* background-image: url('#'); */
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: var(--spacing-xsmall);
+  margin-right: var(--spacing-xxsmall);
+  font-size: larger;
 }
 
 .emptyLogo {
