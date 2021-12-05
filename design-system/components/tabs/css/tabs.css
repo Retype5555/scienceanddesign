@@ -114,10 +114,13 @@
 
 .pillTabs a {
   border-radius: 50vw;
-  margin: 0 var(--spacing-xxsmall);
   font-size: var(--font-size-small) !important;
   padding: var(--spacing-small) var(--spacing-base);
   line-height: var(--line-height-small);
+}
+
+.pillTabs a:nth-child(2n) {
+  margin: 0 var(--spacing-xxsmall);
 }
 
 .pillTabs nav {
@@ -161,5 +164,9 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 375px) {
+  .pillTabs a {
+    padding: var(--spacing-small);
+
+  }
 }
