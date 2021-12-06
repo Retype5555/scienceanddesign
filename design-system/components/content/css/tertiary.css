@@ -73,7 +73,7 @@
 
 .contentRowContent {
   display: flex;
-  margin-bottom: var(--spacing-xxlarge);
+  margin-bottom: var(--spacing-large);
 }
 
 .contentItem.contentRow {
