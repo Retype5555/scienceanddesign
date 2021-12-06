@@ -71,9 +71,13 @@
   margin-bottom: var(--spacing-base);
 }
 
+.cards .contentRowContent {
+  margin-bottom: var(--spacing-large);
+}
+
 .contentRowContent {
   display: flex;
-  margin-bottom: var(--spacing-large);
+  margin-bottom: calc(var(--spacing-xxlarge)*1.25);
 }
 
 .contentItem.contentRow {
