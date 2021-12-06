@@ -223,7 +223,7 @@ img.border {
 }
 
 .cards.tertiaryContent h2 {
-  margin-bottom: var(--spacing-medium) !important;
+  margin-bottom: var(--spacing-xlarge) !important;
 }
 
 .cards h3 {
