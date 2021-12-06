@@ -77,7 +77,7 @@
 
 .contentRowContent {
   display: flex;
-  margin-bottom: calc(var(--spacing-xxlarge)*1.25);
+  margin-bottom: var(--spacing-xxlarge);
 }
 
 .contentItem.contentRow {
