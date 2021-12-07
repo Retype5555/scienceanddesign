@@ -1,4 +1,12 @@
 @media (prefers-color-scheme: light) {
+  /* .intro {
+    background: rgb(242,249,250);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, var(--color-light) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, var(--color-light) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 85%, var(--color-light) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f9fa",endColorstr="#fafafa",GradientType=1);
+  } */
+
   .secondaryIntro {
     background-color: var(--color-shade);
   }
@@ -59,13 +67,14 @@
 }
 
 .intro {
-  height: 100vh;
+  height: calc(100vh - 44px);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   overflow: hidden;
   position: relative;
   margin-bottom: calc(var(--spacing-xxlarge) * 2);
+  margin-top: 44px;
 }
 
 .intro.wrapper {

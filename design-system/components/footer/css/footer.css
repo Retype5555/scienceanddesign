@@ -1,5 +1,11 @@
 @media (prefers-color-scheme: light) {
-
+  footer {
+    background: rgb(242,249,250);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--color-light) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1), var(--color-light) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--color-light) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f9fa",endColorstr="#fafafa",GradientType=1);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
