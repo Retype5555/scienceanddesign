@@ -28,11 +28,29 @@
   .navbar-toggle {
     background-image: url("../../../../images/lm-icon-menu.png");
   }
+
+  .animate {
+    background: rgb(100,33,166) !important;
+    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
+    background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
+    background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1) !important;
+    -webkit-background-clip: text !important;
+    text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: gradient 30s infinite !important;
+    animation-direction: reverse !important;
+    transition: 1s;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   header {
     background-color: rgba(51, 51, 51, .8);
+  }
+
+  header h1 {
+    color: var(--font-color-light-alt);
   }
 
   .navbar-toggle {
@@ -58,6 +76,20 @@
 
   nav a.active {
     border-bottom: 3px solid var(--color-light);
+  }
+
+  .animate {
+    background: rgb(209,188,228) !important;
+    background: -moz-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%) !important;
+    background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%) !important;
+    background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1) !important;
+    -webkit-background-clip: text !important;
+    text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: gradient 30s infinite !important;
+    animation-direction: reverse !important;
+    transition: 1s;
   }
 }
 
@@ -107,20 +139,6 @@ header h1 {
 
 .amp {
   font-family: var(--font-serif);
-}
-
-.animate {
-  background: rgb(100,33,166) !important;
-  background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
-  background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
-  background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1) !important;
-  -webkit-background-clip: text !important;
-  text-fill-color: transparent !important;
-  -webkit-text-fill-color: transparent !important;
-  animation: gradient 30s infinite !important;
-  animation-direction: reverse !important;
-  transition: 1s;
 }
 
 header h1 a {

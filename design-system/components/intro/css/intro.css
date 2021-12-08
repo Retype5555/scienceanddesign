@@ -44,6 +44,20 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+  .intro h1 {
+    /* color: #354DD4 !important; */
+    background: rgb(209,188,228);
+    background: -moz-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+    background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 30s infinite;
+  }
+
   .secondaryIntro {
     background-color: var(--color-dark-1);
   }
