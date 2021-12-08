@@ -107,6 +107,7 @@ header h1 {
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   animation: gradient 30s infinite;
+  animation-direction: reverse;
 }
 
 header h1 a {
