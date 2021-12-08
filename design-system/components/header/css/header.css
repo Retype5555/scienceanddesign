@@ -1,5 +1,9 @@
 @media (prefers-color-scheme: light) {
 
+  header h1 {
+    color: var(--font-color-dark);
+  }
+
   nav.staged {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: var(--shadow-lm);
@@ -92,12 +96,17 @@ header .wrapper {
 
 header h1 {
   font-size: var(--font-size-logo);
-  font-family: var(--font-sans-medium);
+  font-family: var(--font-sans);
   margin-bottom: 0;
   line-height: initial;
   flex: 1;
   width: max-content;
-  letter-spacing: -.25px;
+  /* letter-spacing: -.25px; */
+  font-weight: initial !important;
+}
+
+.amp {
+  font-family: var(--font-serif);
 }
 
 .animate {
