@@ -29,6 +29,7 @@
 .close, .menu {
   width: 40px;
   height: 40px;
+  background-size: contain;
 }
 
 .description li .icon {

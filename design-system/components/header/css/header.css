@@ -122,6 +122,11 @@ header h1 a:hover {
   font-size: var(--font-size-xxxsmall);
 }
 
+.logoGroup {
+  display: flex;
+  align-items: center;
+}
+
 .logoMark {
   width: 1.75rem;
   height: 1.75rem;
