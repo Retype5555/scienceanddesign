@@ -1,7 +1,4 @@
 @media (prefers-color-scheme: light) {
-  header {
-    background-color: rgba(255, 255, 255, .8);
-  }
 
   nav.staged {
     background-color: rgba(255, 255, 255, 1);
@@ -100,6 +97,7 @@ header h1 {
   flex: 1;
   width: max-content;
   font-weight: 400;
+  letter-spacing: -.5px;
 }
 
 header h1 a {
