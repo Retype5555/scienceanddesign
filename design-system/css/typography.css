@@ -11,6 +11,12 @@
 }
 
 @font-face {
+  font-family: "Rubik Medium";
+  src: url("../assets/fonts/sans/medium.woff2") format("woff2"),
+       url("../assets/fonts/sans/medium.woff") format("woff");
+}
+
+@font-face {
   font-family: "Noto Serif";
   src: url("../assets/fonts/serif/regular.woff2") format("woff2"),
        url("../assets/fonts/serif/regular.woff") format("woff");

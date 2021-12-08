@@ -13,27 +13,6 @@
   }
 }
 
-/* .intro h1 {
-  text-shadow: var(--shadow-lm);
-  color: #2B5C88;
-}
-
-.intro {
-  background-color: #64D8EF !important;
-} */
-
-/* header {
-  background-color: #64D8EF !important;
-}
-
-*/ header h1 {
-    font-family: var(--font-sans);
-} /*
-
-.btn {
-  background-color: #2B5C88;
-} */
-
 @media only screen and (max-width: 1024px) {
 .intro h1 {
     font-size: calc(var(--font-size-1) * .8) !important;
