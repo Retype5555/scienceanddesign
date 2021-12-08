@@ -10,8 +10,7 @@
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-    animation: shine 30s infinite;
-    background-size: 200% auto;
+    animation: gradient 30s infinite;
   }
 
   .secondaryIntro {
