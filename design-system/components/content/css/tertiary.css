@@ -186,6 +186,10 @@ h3 + .icon + a {
     margin-bottom: var(--spacing-medium);
   }
 
+  .cards .contentRowContent {
+    margin-bottom: initial !important;
+  }
+
   .contentRowContent .contentItem {
     width: initial;
   }
