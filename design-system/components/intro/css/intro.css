@@ -6,7 +6,11 @@
 
   .intro h1 {
     /* color: #354DD4 !important; */
-    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+    background: rgb(100,33,166);
+background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1); 
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
