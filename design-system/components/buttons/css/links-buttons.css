@@ -56,7 +56,7 @@
   font-weight: bolder;
   display: inline-block;
   line-height: var(--line-height-body);
-  font-family: var(--font-sans-medium);
+  font-family: var(--font-sans);
 }
 
 .tertiaryContent .btn {
