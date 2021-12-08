@@ -101,7 +101,6 @@ header h1 {
   line-height: initial;
   flex: 1;
   width: max-content;
-  /* letter-spacing: -.25px; */
   font-weight: initial !important;
 }
 
@@ -363,9 +362,7 @@ aside .navButton {
 }
 
 @media only screen and (max-width: 480px) {
-  header h1 {
-    font-size: calc(var(--font-size-logo)*.9);
-  }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -377,11 +374,6 @@ aside .navButton {
     width: 2rem;
     height: 2rem;
   }
-
-  /* header .wrapper {
-    padding-top: var(--spacing-base);
-    padding-bottom: var(--spacing-base);
-  } */
 
   .staged .navButton {
     top: calc(var(--spacing-base) * 1.25);
