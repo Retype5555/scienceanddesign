@@ -44,7 +44,7 @@
   --color-focus: #3D76F5;
   --color-grey: #c4c4c4;
   --color-green: #50A446;
-  --color-light: rgba(247,249,250,1);
+  --color-light: #FAFAFA;
   --color-light-1: #F5F5F5;
   --color-dm-shade: rgba(255,255,255,0.1);
   --color-dm-shade-1: rgba(255,255,255,0.05);
@@ -76,7 +76,7 @@
 
 /* BADGE */
 
-  --badge-lm: rgba(0,0,0,0.05);
+  --badge-lm: #f2f2f2;
   --badge-dm: rgba(255,255,255,0.1);
 
   /* BORDERS */
