@@ -102,6 +102,7 @@ header h1 {
   flex: 1;
   width: max-content;
   font-weight: initial !important;
+  letter-spacing: -.25px;
 }
 
 .amp {
