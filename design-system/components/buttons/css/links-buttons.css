@@ -20,7 +20,7 @@
   }
 
   .primaryBtn:hover {
-    background-color: rgba(0,0,0,.9);
+    background-color: #4836A6;
     color: white;
   }
 }
