@@ -22,6 +22,7 @@
 
 p.badge {
   border-radius: 50vh;
+  letter-spacing: var(--letter-spacing-xsmall);
   font-size: var(--font-size-xxsmall) !important;
   display: inline-block;
   margin: 0 !important;
