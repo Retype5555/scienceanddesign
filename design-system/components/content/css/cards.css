@@ -46,4 +46,15 @@
   .card {
     margin: var(--spacing-base) 0;
   }
+
+  .card:first-of-type {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: var(--spacing-base);
+  }
+
+  .card:last-of-type {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
