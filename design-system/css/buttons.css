@@ -85,7 +85,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .btn {
     font-size: var(--font-size-xsmall);
   }
