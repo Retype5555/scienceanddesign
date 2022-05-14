@@ -168,7 +168,7 @@ nav ul li a {
 }
 
 nav .btn {
-  margin-left: var(--spacing-base);
+  margin-left: var(--spacing-medium);
   height: auto;
   text-transform: uppercase;
 }
@@ -183,28 +183,28 @@ nav .badge {
 
 @media only screen and (max-width: 768px) {
   @media (prefers-color-scheme: light) {
-    /* header nav ul {
+    header nav ul {
       box-shadow: var(--shadow-lm);
       background-color: var(--color-light);
     }
 
     header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-dark);
-    } */
+    }
   }
 
   @media (prefers-color-scheme: dark) {
-    /* header nav ul {
+    header nav ul {
       box-shadow: var(--shadow-dm);
       background-color: var(--color-shade-dm);
     }
 
     header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-light);
-    } */
+    }
   }
 
-  /* header nav ul {
+  header nav ul {
     display: none;
   }
 
@@ -248,5 +248,5 @@ nav .badge {
   header nav .badge {
     margin-right: 0;
     margin-left: var(--spacing-medium);
-  } */
+  }
 }

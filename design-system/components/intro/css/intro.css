@@ -55,7 +55,6 @@
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   animation: gradient 30s infinite;
-  transform: translateY(-5%);
 }
 
 .intro .tabs {

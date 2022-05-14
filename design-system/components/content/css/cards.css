@@ -18,6 +18,7 @@
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
   border-radius: var(--radius-soft);
   margin: var(--spacing-base);
+  max-width: 640px;
 }
 
 .card h4 {
@@ -38,6 +39,20 @@
   margin-top: var(--spacing-large);
 }
 
+.groupRow:first-of-type {
+  margin-bottom: var(--spacing-base);
+}
+
+.groupRow:last-of-type {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .card h4 {
+    font-size:  calc(var(--font-size-3) * .7);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .center .groupRow:first-of-type .card:nth-child(2n) {
     margin-top: var(--spacing-base);
@@ -50,11 +65,19 @@
   .card:first-of-type {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: var(--spacing-base);
+    margin-bottom: 0;
   }
 
   .card:last-of-type {
     margin-right: 0;
     margin-left: 0;
+  }
+
+  .groupRow .card.description {
+    margin-top: var(--spacing-base);
+  }
+
+  .groupRow:first-of-type {
+    margin-bottom: 0;
   }
 }

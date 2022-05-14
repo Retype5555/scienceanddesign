@@ -84,6 +84,7 @@ p + ul {
 
 ul {
   margin: var(--spacing-small) 0;
+  max-width: 640px;
 }
 
 ul li {
