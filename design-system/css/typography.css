@@ -241,6 +241,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
     font-size: calc(var(--font-size-5) * .8);
   }
 
+  .statement p {
+    font-size: calc(var(--font-size-5) * .8);
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
