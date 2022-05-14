@@ -2,6 +2,7 @@
   .card {
     border: var(--border-dark);
     background-color: var(--color-light);
+    box-shadow: var(--shadow-lm);
   }
 }
 
@@ -9,6 +10,7 @@
   .card {
     border: var(--border-light);
     background-color: var(--color-shade-dm);
+    box-shadow: var(--shadow-dm);
   }
 }
 
