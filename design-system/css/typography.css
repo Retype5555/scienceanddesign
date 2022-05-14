@@ -147,6 +147,7 @@ p.meta {
 .highlight {
   padding: var(--spacing-xsmall);
   border-radius: var(--radius-soft);
+  animation: gradient 30s infinite;
 }
 
 h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
@@ -169,7 +170,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 .statement p {
   font-family: 'Mono';
   font-size: var(--font-size-5);
-  line-height: var(--line-height-heading);
+  line-height: var(--line-height-body);
 }
 
 .statement {
