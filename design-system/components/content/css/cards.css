@@ -18,12 +18,18 @@
   margin: var(--spacing-base);
 }
 
+.card h4 {
+  margin-bottom: var(--spacing-small);
+}
+
 .card:first-of-type {
   margin-left: 0;
+  margin-right: var(--spacing-base);
 }
 
 .card:last-of-type {
   margin-right: 0;
+  margin-left: var(--spacing-base);
 }
 
 .center .groupRow:first-of-type .card {

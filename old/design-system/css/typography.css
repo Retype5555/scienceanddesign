@@ -193,6 +193,13 @@ p.caption {
   padding: var(--spacing-xxsmall) var(--spacing-xxsmall) var(--spacing-xsmall) var(--spacing-xxsmall);
 }
 
+.statement p {
+  font-family: 'Mono';
+  font-size: var(--font-size-3);
+  text-align: center;
+  margin: 0 auto;
+}
+
 p .highlight {
   padding: var(--spacing-xxsmall);
 }
