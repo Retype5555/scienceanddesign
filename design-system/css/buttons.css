@@ -80,8 +80,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-
   .btn {
     margin: var(--spacing-xsmall) 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    font-size: var(--font-size-xsmall);
   }
 }
