@@ -145,7 +145,7 @@ p.meta {
 }
 
 .highlight {
-  padding: var(--spacing-xsmall);
+  padding: var(--spacing-xxsmall);
   border-radius: var(--radius-soft);
   animation: gradient 30s infinite;
 }
