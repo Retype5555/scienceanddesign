@@ -186,6 +186,7 @@ nav .badge {
     header nav ul {
       box-shadow: var(--shadow-lm);
       background-color: var(--color-light);
+      border: var(--border-dark);
     }
 
     header nav ul li a:hover {
@@ -197,6 +198,7 @@ nav .badge {
     header nav ul {
       box-shadow: var(--shadow-dm);
       background-color: var(--color-shade-dm);
+      border: var(--border-light);
     }
 
     header nav ul li a:hover {
@@ -217,11 +219,10 @@ nav .badge {
     flex-direction: column;
     position: absolute;
     top: 72px;
-    left: 0;
-    right: 0;
     z-index: 1;
     padding: var(--spacing-small) 0;
     align-items: flex-start;
+    border-radius: var(--radius-soft);
   }
 
   header nav ul li a.wrapper {
@@ -234,11 +235,13 @@ nav .badge {
     padding-bottom: var(--spacing-base) !important;
     padding-left: var(--spacing-medium) !important;
     padding-right: var(--spacing-medium) !important;
+    font-size: var(--font-size-body);
   }
 
   header nav .btn {
     margin: var(--spacing-base) var(--spacing-medium);
     display: inline-flex !important;
+    font-size: var(--font-size-body);
   }
 
   header nav ul li a.wrapper {

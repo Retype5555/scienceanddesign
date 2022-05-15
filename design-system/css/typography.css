@@ -115,7 +115,7 @@ h2 {
 
 h3 {
   font-size: var(--font-size-2);
-  margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+  margin: 0 0 var(--spacing-base) 0 !important;
 }
 
 h4 {
@@ -193,7 +193,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .9);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
@@ -225,7 +224,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .8);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
@@ -255,7 +253,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .7);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h5 {

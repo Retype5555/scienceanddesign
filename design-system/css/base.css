@@ -106,7 +106,7 @@ header, article, section, footer {
 }
 
 section {
-  margin: 0 0 calc(var(--spacing-xxlarge) * 1.5) 0;
+  margin: 0 0 calc(var(--spacing-xxlarge) * 1.75) 0;
 }
 
 .wrapper {
@@ -123,7 +123,7 @@ section {
   }
 
   section {
-    margin: 0 0 var(--spacing-xxlarge) 0;
+    margin: 0 0 calc(var(--spacing-xxlarge) * 1.25) 0;
   }
 
 }
