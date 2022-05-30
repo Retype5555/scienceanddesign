@@ -109,6 +109,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Mono';
 }
 
+h3, h4, h5, h6 {
+  letter-spacing: var(--letter-spacing-serif-heading);
+}
+
 h2 {
   font-size: var(--font-size-1);
 }
