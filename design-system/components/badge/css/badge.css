@@ -2,6 +2,7 @@
   .badge {
     border: var(--border-dark);
     background-color: var(--color-shade-lm);
+    box-shadow: var(--shadow-badge-lm);
   }
 }
 
@@ -9,6 +10,7 @@
   .badge {
     border: var(--border-light);
     background-color: var(--color-shade-dm);
+    box-shadow: var(--shadow-badge-dm);
   }
 }
 

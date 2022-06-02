@@ -30,9 +30,14 @@
 
 .description {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   margin: var(--spacing-medium) 0;
+}
+
+.description .badge {
+  margin: var(--spacing-xsmall) auto !important;
 }
 
 .description.flip {

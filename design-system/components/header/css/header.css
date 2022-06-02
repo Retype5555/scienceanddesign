@@ -8,11 +8,11 @@
   }
 
   nav a.selected {
-    box-shadow: inset 0 -3px var(--color-dark);
+    box-shadow: inset 0 -3px rgb(100,33,166);
   }
 
   nav ul li a:hover {
-    box-shadow: inset 0 -3px var(--color-dark);
+    box-shadow: inset 0 -3px rgb(100,33,166);
   }
 
   nav .btn {
@@ -34,11 +34,11 @@
   }
 
   nav a.selected {
-    box-shadow: inset 0 -3px var(--color-light);
+    box-shadow: inset 0 -3px rgb(178,144,210);
   }
 
   nav ul li a:hover {
-    box-shadow: inset 0 -3px var(--color-light);
+    box-shadow: inset 0 -3px rgb(178,144,210);
   }
 
   .amp {
@@ -149,7 +149,15 @@ nav ul li {
   display: flex;
   height: 100%;
   align-items: center;
-  margin: 0;
+  margin: 0 var(--spacing-small);
+}
+
+nav ul li:first-of-type {
+  margin: 0 var(--spacing-small);
+}
+
+nav ul li:last-of-type {
+  margin: 0 0 0 var(--spacing-small);
 }
 
 nav ul li a.wrapper {
@@ -168,7 +176,7 @@ nav ul li a {
 }
 
 nav .btn {
-  margin-left: var(--spacing-medium);
+  margin-left: 0 0 0 var(--spacing-small);
   height: auto;
   text-transform: uppercase;
 }

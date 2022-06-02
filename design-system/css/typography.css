@@ -181,7 +181,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   margin: 0 auto !important;
 }
 
-#services h3 {
+#services h3, #working h3  {
   width: 100%;
   text-align: center;
 }

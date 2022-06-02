@@ -17,7 +17,7 @@
 .card {
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
   border-radius: var(--radius-soft);
-  margin: var(--spacing-base);
+  margin: 0 var(--spacing-small) !important;
   max-width: 640px;
 }
 
@@ -27,12 +27,12 @@
 
 .card:first-of-type {
   margin-left: 0;
-  margin-right: var(--spacing-base);
+  margin-right: var(--spacing-small);
 }
 
 .card:last-of-type {
   margin-right: 0;
-  margin-left: var(--spacing-base);
+  margin-left: var(--spacing-small);
 }
 
 .center .groupRow:first-of-type .card {
@@ -59,7 +59,7 @@
   }
 
   .card {
-    margin: var(--spacing-base) 0;
+    margin: var(--spacing-small) 0 !important;
   }
 
   .card h4 {
@@ -69,8 +69,6 @@
   .card:first-of-type {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0 !important;
-    margin-bottom: var(--spacing-base);
   }
 
   .card:last-of-type {
