@@ -149,15 +149,15 @@ nav ul li {
   display: flex;
   height: 100%;
   align-items: center;
-  margin: 0 var(--spacing-xsmall);
+  /* margin: 0 var(--spacing-xsmall); */
 }
 
 nav ul li:first-of-type {
-  margin: 0 var(--spacing-small);
+  /* margin: 0 var(--spacing-small); */
 }
 
 nav ul li:last-of-type {
-  margin: 0 0 0 var(--spacing-small);
+  margin: 0 0 0 var(--spacing-xsmall);
 }
 
 nav ul li a.wrapper {
@@ -174,7 +174,7 @@ nav ul li a {
   font-size: var(--font-size-small);
   line-height: var(--line-height-body);
   letter-spacing: .025rem;
-  padding: 0 var(--spacing-small);
+  padding: 0 calc(var(--spacing-small) * 1.25);
 }
 
 nav .btn {
