@@ -1,24 +1,26 @@
 @media (prefers-color-scheme: light) {
   .card {
-    border: var(--border-dark);
     background-color: var(--color-light);
-    box-shadow: var(--shadow-lm);
+    box-shadow:  var(--spacing-small) var(--spacing-small) 0 rgba(100,33,166, .15);
+    border: 2px solid rgba(100,33,166, 1);
+    animation: gradient 30s infinite;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
   .card {
-    border: var(--border-light);
+    border: 2px solid rgb(178,144,210);
     background-color: var(--color-shade-dm);
-    box-shadow: var(--shadow-dm);
+    box-shadow:  var(--spacing-small) var(--spacing-small) 0 rgba(178,144,210,.15);
   }
 }
 
 .card {
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
-  border-radius: var(--radius-soft);
   margin: 0 var(--spacing-small) !important;
   max-width: 640px;
+  border-radius: var(--radius-soft);
 }
 
 .card h4 {
@@ -37,10 +39,6 @@
 
 .center .groupRow:first-of-type .card {
   margin-top: var(--spacing-large);
-}
-
-.groupRow:first-of-type {
-  margin-bottom: var(--spacing-base);
 }
 
 .groupRow:last-of-type {

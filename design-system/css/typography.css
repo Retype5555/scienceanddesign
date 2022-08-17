@@ -119,7 +119,7 @@ h2 {
 
 h3 {
   font-size: var(--font-size-2);
-  margin: 0 0 var(--spacing-base) 0 !important;
+  margin: 0 0 var(--spacing-xlarge) 0 !important;
 }
 
 h4 {
