@@ -149,15 +149,15 @@ nav ul li {
   display: flex;
   height: 100%;
   align-items: center;
-  margin: 0 var(--spacing-small);
+  /* margin: 0 var(--spacing-xsmall); */
 }
 
 nav ul li:first-of-type {
-  margin: 0 var(--spacing-small);
+  /* margin: 0 var(--spacing-small); */
 }
 
 nav ul li:last-of-type {
-  margin: 0 0 0 var(--spacing-small);
+  margin: 0 0 0 var(--spacing-xsmall);
 }
 
 nav ul li a.wrapper {
@@ -172,11 +172,13 @@ nav ul li a {
   height: 100%;
   align-items: center;
   font-size: var(--font-size-small);
+  line-height: var(--line-height-body);
   letter-spacing: .025rem;
+  padding: 0 calc(var(--spacing-small) * 1.25);
 }
 
 nav .btn {
-  margin-left: 0 0 0 var(--spacing-small);
+  margin-left: var(--spacing-small);
   height: auto;
   text-transform: uppercase;
 }
@@ -198,7 +200,7 @@ nav .badge {
     }
 
     header nav ul li a:hover {
-      box-shadow: inset 3px 0 var(--color-dark);
+      box-shadow: inset 3px 0 rgb(100,33,166);
     }
   }
 
@@ -241,15 +243,26 @@ nav .badge {
   header nav ul li a {
     padding-top: var(--spacing-base) !important;
     padding-bottom: var(--spacing-base) !important;
-    padding-left: var(--spacing-medium) !important;
-    padding-right: var(--spacing-medium) !important;
-    font-size: var(--font-size-body);
+    padding-left: var(--spacing-base) !important;
+    padding-right: var(--spacing-base) !important;
+  }
+
+  nav ul li:first-of-type {
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li:last-of-type {
+    margin: 0;
   }
 
   header nav .btn {
-    margin: var(--spacing-base) var(--spacing-medium);
+    margin: var(--spacing-base);
     display: inline-flex !important;
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-small);
   }
 
   header nav ul li a.wrapper {
