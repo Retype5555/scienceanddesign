@@ -3,7 +3,7 @@
     background-color: var(--color-light);
     box-shadow:  var(--spacing-small) var(--spacing-small) 0 rgba(100,33,166, .15);
     border: 2px solid rgba(100,33,166, 1);
-    animation: gradient 30s infinite;
+    /* animation: gradient 30s infinite; */
   }
 
 }
