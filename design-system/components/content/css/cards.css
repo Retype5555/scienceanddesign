@@ -18,7 +18,7 @@
 
 .card {
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
-  margin: 0 var(--spacing-small) !important;
+  margin: 0 var(--spacing-base) !important;
   max-width: 640px;
   border-radius: var(--radius-soft);
 }
