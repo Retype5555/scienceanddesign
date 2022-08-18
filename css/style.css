@@ -4,16 +4,33 @@
 /* Add your custom styles in this file... */
 
 @media (prefers-color-scheme: light) {
-
+  #working {
+    background-size: 1rem 1rem;
+    background-image:
+    linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100,33,166,0.08) 1px, transparent 1px);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
+  #working {
+    background-size: 1rem 1rem;
+    background-image:
+    linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100,33,166,0.08) 1px, transparent 1px);
+  }
+}
 
+#working {
+  padding: var(--spacing-xxlarge) 0;
+  margin-bottom: 0;
 }
 
 br {
   margin-bottom: var(--spacing-small);
 }
+
+
 
 @media only screen and (max-width: 1280px) {
 
