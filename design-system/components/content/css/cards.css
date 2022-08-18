@@ -10,7 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   .card {
-    border: 2px solid rgb(100,33,166);
+    border: 2px solid rgb(178,144,210);
     background-color: var(--color-shade-dm);
     box-shadow:  var(--spacing-small) var(--spacing-small) 0 rgba(178,144,210,.15);
   }
