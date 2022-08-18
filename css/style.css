@@ -4,7 +4,7 @@
 /* Add your custom styles in this file... */
 
 @media (prefers-color-scheme: light) {
-  #working {
+  #services {
     background-size: 1rem 1rem;
     background-image:
     linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
@@ -13,7 +13,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  #working {
+  #services {
     background-size: 1rem 1rem;
     background-image:
     linear-gradient(to right, rgba(178,144,210,0.08) 1px, transparent 1px),
@@ -21,9 +21,8 @@
   }
 }
 
-#working {
+#services {
   padding: var(--spacing-xxlarge) 0;
-  margin-bottom: 0;
 }
 
 br {
