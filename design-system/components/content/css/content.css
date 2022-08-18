@@ -80,7 +80,7 @@
   /* list-style: none; */
   margin-left: 0;
   margin-top: var(--spacing-base);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-base);
   text-align: left;
   width: fit-content;
   margin: var(--spacing-base) auto 0 auto;
