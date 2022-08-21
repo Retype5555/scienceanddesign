@@ -11,7 +11,7 @@
 
   .primaryBtn {
     background-color: var(--color-dark);
-    color: var(--color-light);
+    color: var(--color-light) !important;
   }
 
   .btn:hover {
@@ -63,7 +63,7 @@
   margin: var(--spacing-small) 0;
   text-transform: capitalize;
   font-family: 'Mono';
-  border-radius: var(--radius-round);
+  /* border-radius: var(--radius-round); */
 }
 
 .btnLrg {

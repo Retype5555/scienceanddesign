@@ -1,10 +1,10 @@
 @media (prefers-color-scheme: light) {
   .badge {
     /* border: var(--border-dark); */
-    background-color: var(--color-shade-lm);
+    /* background-color: var(--color-shade-lm); */
     /* box-shadow: var(--shadow-badge-lm); */
     box-shadow:  var(--spacing-xsmall) var(--spacing-xsmall) 0 rgba(100,33,166, .15);
-    border: 2px solid rgba(100,33,166, 1);
+    border: 1px solid rgba(100,33,166, 1);
   }
 }
 
@@ -12,15 +12,15 @@
   .badge {
     /* border: var(--border-light); */
     /* box-shadow: var(--shadow-badge-dm); */
-    border: 2px solid rgb(178,144,210);
-    background-color: var(--color-shade-dm);
+    border: 1px solid rgb(178,144,210);
+    /* background-color: var(--color-shade-dm); */
     box-shadow:  var(--spacing-xsmall) var(--spacing-xsmall) 0 rgba(178,144,210,.15);
   }
 }
 
 .badge {
   padding: var(--spacing-xsmall) var(--spacing-small);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-xsmall);
   letter-spacing: -.5px;
   border-radius: var(--radius-round);
   width: fit-content;

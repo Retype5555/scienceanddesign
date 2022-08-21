@@ -10,6 +10,12 @@
     linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(100,33,166,0.08) 1px, transparent 1px);
   }
+
+  .btn {
+    border: 2px solid rgba(100,33,166, 1);
+    color: rgba(100,33,166, 1);
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +25,11 @@
     linear-gradient(to right, rgba(178,144,210,0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(178,144,210,0.08) 1px, transparent 1px);
   }
+
+  .btn {
+    border: 2px solid rgb(178,144,210);
+    color: rgb(178,144,210);
+  }
 }
 
 #services {
@@ -27,6 +38,10 @@
 
 br {
   margin-bottom: var(--spacing-small);
+}
+
+.groupRow .card a.btn {
+  margin: var(--spacing-base) auto 0 auto;
 }
 
 
