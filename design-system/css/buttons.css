@@ -10,7 +10,7 @@
   }
 
   .primaryBtn {
-    background-color: var(--color-dark);
+    background-color: rgba(100,33,166, 1);
     color: var(--color-light) !important;
   }
 
@@ -38,7 +38,7 @@
 
   .primaryBtn {
     background-color: var(--color-light);
-    color: var(--color-dark);
+    color: rgb(178,144,210);
   }
 
   .btn:hover {
@@ -61,13 +61,14 @@
   text-decoration: none;
   cursor: pointer;
   margin: var(--spacing-small) 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-family: 'Mono';
   /* border-radius: var(--radius-round); */
 }
 
 .btnLrg {
   padding: var(--spacing-button-lg) !important;
+  font-size: var(--font-size-small);
 }
 
 .btnIcon {

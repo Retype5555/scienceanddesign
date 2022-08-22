@@ -13,8 +13,8 @@
   } */
 
   .primaryBtn {
-    background-color: #373F42;
-    color: #f2f2f2;
+    background-color: #373F42 !important;
+    color: #f2f2f2 !important;
     filter: brightness(110%);
     background-color: #5641c1;
   }
