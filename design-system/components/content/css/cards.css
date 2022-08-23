@@ -57,7 +57,7 @@
   }
 
   .card {
-    margin: var(--spacing-base) 0 !important;
+    margin:  0 0 var(--spacing-medium) 0 !important;
   }
 
   .card h4 {
