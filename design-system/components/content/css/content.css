@@ -37,7 +37,7 @@
 }
 
 .description .badge {
-  margin: var(--spacing-xsmall) 0 !important;
+  margin-top: var(--spacing-small) !important;
 }
 
 .description.flip {
