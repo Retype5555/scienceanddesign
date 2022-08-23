@@ -30,6 +30,10 @@
     border: 2px solid rgb(178,144,210);
     color: rgb(178,144,210);
   }
+
+  .primaryBtn {
+    color: var(--color-dark)
+  }
 }
 
 #services {
