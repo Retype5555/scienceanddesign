@@ -24,7 +24,7 @@
 }
 
 .card h4 {
-  margin-bottom: var(--spacing-small);
+  margin-bottom: var(--spacing-base);
 }
 
 .card:first-of-type {
