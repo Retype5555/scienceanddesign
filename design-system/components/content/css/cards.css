@@ -45,6 +45,10 @@
   margin-top: 0;
 }
 
+.card .meta {
+  font-size: var(--font-size-small) !important;
+}
+
 @media only screen and (max-width: 960px) {
   .card h4 {
     font-size:  calc(var(--font-size-3) * .7);
