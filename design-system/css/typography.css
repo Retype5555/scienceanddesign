@@ -303,7 +303,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .7);
+    font-size: calc(var(--font-size-5) * .8);
   }
 
 }

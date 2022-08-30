@@ -17,7 +17,7 @@
 }
 
 .card {
-  padding: var(--spacing-xlarge) var(--spacing-large) !important;
+  padding: var(--spacing-xlarge) var(--spacing-xlarge) !important;
   margin: 0 var(--spacing-base) !important;
   max-width: 640px;
   border-radius: var(--radius-soft);
@@ -48,6 +48,10 @@
 @media only screen and (max-width: 960px) {
   .card h4 {
     font-size:  calc(var(--font-size-3) * .7);
+  }
+
+  .card {
+    padding: var(--spacing-large) var(--spacing-large) !important;
   }
 }
 
