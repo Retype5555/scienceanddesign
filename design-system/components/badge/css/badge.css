@@ -23,6 +23,6 @@
   font-size: var(--font-size-xsmall);
   letter-spacing: -.5px;
   border-radius: var(--radius-round);
-  width: fit-content;
+  width: max-content;
   font-family: 'Mono';
 }
