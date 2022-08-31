@@ -224,28 +224,28 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 @media only screen and (max-width: 1000px) {
 
   h2 {
-    font-size: calc(var(--font-size-1) * .75);
+    font-size: calc(var(--font-size-1) * .7);
   }
 
   h3 {
-    font-size: calc(var(--font-size-2) * .75);
+    font-size: calc(var(--font-size-2) * .7);
   }
 
   h4 {
-    font-size: calc(var(--font-size-3) * .75);
-    margin: calc(var(--spacing-xxlarge) * .75) 0 var(--spacing-xxsmall) 0;
+    font-size: calc(var(--font-size-3) * .7);
+    margin: calc(var(--spacing-xxlarge) * .7) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .75);
+    font-size: calc(var(--font-size-4) * .7);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .75);
+    font-size: calc(var(--font-size-5) * .7);
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .75);
+    font-size: calc(var(--font-size-5) * .7);
   }
 
 }
