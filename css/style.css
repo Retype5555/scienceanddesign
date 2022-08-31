@@ -48,10 +48,10 @@ br {
   margin: var(--spacing-base) auto 0 auto;
 }
 
-.card h4 + .badge {
+/* .card h4 + .badge {
   position: relative;
   top: -.25rem;
-}
+} */
 
 @media only screen and (max-width: 1280px) {
 
