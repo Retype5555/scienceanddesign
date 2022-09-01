@@ -18,7 +18,7 @@
 
 .card {
   padding: var(--spacing-xlarge) var(--spacing-xlarge) !important;
-  margin: 0 var(--spacing-base) !important;
+  margin: 0 var(--spacing-medium) !important;
   max-width: 640px;
   border-radius: var(--radius-soft);
 }
@@ -49,6 +49,14 @@
   font-size: var(--font-size-small) !important;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  .card {
+    margin: 0 var(--spacing-base) !important;
+  }
+
+}
+
 @media only screen and (max-width: 960px) {
   .card h4 {
     font-size:  calc(var(--font-size-3) * .7);
@@ -56,7 +64,9 @@
 
   .card {
     padding: var(--spacing-large) var(--spacing-large) !important;
+    margin: 0 var(--spacing-base) !important;
   }
+
 }
 
 @media only screen and (max-width: 768px) {

@@ -68,7 +68,7 @@
 
 .btnLrg {
   padding: var(--spacing-button-lg) !important;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-base);
 }
 
 .btnIcon {
