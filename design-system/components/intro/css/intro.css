@@ -48,6 +48,26 @@
   position: relative;
 }
 
+.intro label {
+  font-size: var(--font-size-small);
+  margin: var(--spacing-medium) 0 var(--spacing-small) 0;
+  font-weight: 600;
+  font-family: 'Mono';
+  opacity: .75;
+}
+
+.intro input {
+  max-width: 420px;
+  font-size: var(--font-size-base);
+  padding: calc(var(--spacing-base) * .75) var(--spacing-base);
+  border-radius: var(--radius-soft);
+}
+
+.intro button {
+  width: max-content;
+  margin-top: var(--spacing-small);
+}
+
 .intro h2 {
   width: 70%;
   line-height: var(--line-height-intro-heading);

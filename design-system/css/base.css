@@ -4,10 +4,17 @@
       color: var(--color-light);
   }
 
+  :focus {
+    outline-color: rgb(100,33,166) !important;
+  }
+
   input {
     background-color: var(--color-light);
     color: var(--color-dark);
     border: var(--border-dark);
+  }
+
+  input[type="search"] {
     background-image: url("../../design-system/images/input/icon-search-lm.png");
   }
 
@@ -26,6 +33,10 @@
       color: var(--color-dark);
   }
 
+  :focus {
+    outline-color: rgb(178,144,210) !important;
+  }
+
   body {
     background-color: var(--shade-dm);
   }
@@ -34,8 +45,10 @@
     background-color: var(--color-dark);
     color: var(--color-light);
     border: var(--border-light-1);
-    background-image: url("../../design-system/images/input/icon-search-dm.png");
+  }
 
+  input[type="search"] {
+    background-image: url("../../design-system/images/input/icon-search-dm.png");
   }
 
   a {
