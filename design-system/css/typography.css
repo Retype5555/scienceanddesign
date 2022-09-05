@@ -54,6 +54,10 @@
     background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
   }
+
+  .statement p {
+    color: var(--color-label-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,6 +100,10 @@
     background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
     background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+  }
+
+  .statement p {
+    color: var(--color-label-dm);
   }
 }
 
@@ -174,8 +182,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 .statement p {
   font-family: 'Mono';
-  font-size: var(--font-size-5);
+  font-size: var(--font-size-4);
   line-height: var(--line-height-body);
+  max-width: 768px !important;
+  margin: var(--spacing-base) !important;
 }
 
 .statement {
@@ -238,7 +248,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .8);
+    font-size: calc(var(--font-size-4) * .9);
   }
 }
 
@@ -269,7 +279,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .7);
+    font-size: calc(var(--font-size-4) * .8);
   }
 
 }
@@ -298,7 +308,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .75);
+    font-size: calc(var(--font-size-4) * .75);
   }
 
 }
@@ -327,7 +337,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-5) * .8);
+    font-size: calc(var(--font-size-4) * .7);
   }
 
 }
