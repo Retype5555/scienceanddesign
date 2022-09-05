@@ -223,6 +223,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
     font-size: calc(var(--font-size-5) * .9);
   }
 
+  .statement p {
+    font-size: calc(var(--font-size-4) * .8);
+  }
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -247,9 +251,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
     font-size: calc(var(--font-size-5) * .8);
   }
 
-  .statement p {
-    font-size: calc(var(--font-size-4) * .9);
-  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -279,7 +280,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .8);
+    font-size: calc(var(--font-size-4) * .75);
   }
 
 }
@@ -308,7 +309,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .75);
+    font-size: calc(var(--font-size-4) * .7);
   }
 
 }
@@ -337,7 +338,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .7);
+    font-size: calc(var(--font-size-4) * .65);
   }
 
 }
