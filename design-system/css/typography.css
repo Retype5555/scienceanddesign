@@ -55,7 +55,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
   }
 
-  .statement p {
+  .statement p, label {
     color: var(--color-label-lm);
   }
 }
@@ -102,7 +102,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
   }
 
-  .statement p {
+  .statement p, label {
     color: var(--color-label-dm);
   }
 }
