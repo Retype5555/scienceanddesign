@@ -259,35 +259,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 @media only screen and (max-width: 1000px) {
 
   h2 {
-    font-size: calc(var(--font-size-1) * .7);
-  }
-
-  h3 {
-    font-size: calc(var(--font-size-2) * .7);
-  }
-
-  h4 {
-    font-size: calc(var(--font-size-3) * .7);
-    margin: calc(var(--spacing-xxlarge) * .7) 0 var(--spacing-xxsmall) 0;
-  }
-
-  h5 {
-    font-size: calc(var(--font-size-4) * .7);
-  }
-
-  h6 {
-    font-size: calc(var(--font-size-5) * .7);
-  }
-
-  .statement p {
-    font-size: calc(var(--font-size-4) * .75);
-  }
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  h2 {
     font-size: calc(var(--font-size-1) * .75);
   }
 
@@ -309,12 +280,12 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .7);
+    font-size: calc(var(--font-size-4) * .75);
   }
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
 
   h2 {
     font-size: calc(var(--font-size-1) * .7);
@@ -338,6 +309,35 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
+    font-size: calc(var(--font-size-4) * .7);
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .65);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .65);
+  }
+
+  h4 {
+    font-size: calc(var(--font-size-3) * .65);
+    margin: calc(var(--spacing-xxlarge) * .65) 0 var(--spacing-xxsmall) 0;
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .65);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .65);
+  }
+
+  .statement p {
     font-size: calc(var(--font-size-4) * .65);
   }
 
@@ -350,15 +350,15 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   h3 {
-    font-size: calc(var(--font-size-2) * .7);
+    font-size: calc(var(--font-size-2) * .55);
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .7);
+    font-size: calc(var(--font-size-4) * .55);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .7);
+    font-size: calc(var(--font-size-5) * .55);
   }
 
   .code {
