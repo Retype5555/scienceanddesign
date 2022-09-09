@@ -1,7 +1,7 @@
 # Science & Design
-[Website](https://scienceand.design)
+[Website](https://scienceand.design) | [Schedule a Call](https://cal.com/scienceanddesign/15min)
 
-We are a technology 501c3 (application in-progress) with a global network of designers, researchers, engineers, writers, and technologists focused on helping make public interest organizations successful.
+We are a technology 501c3 (application in progress) with a global network of designers, researchers, engineers, writers, and technologists focused on making public interest organizations successful.
 
 ## Resources
 
@@ -15,7 +15,7 @@ We are a technology 501c3 (application in-progress) with a global network of des
 
 [The 7 Cooperative Principles](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/7-cooperative-principles.md)
 
-[Schedule a Call](https://cal.com/scienceanddesign/15min)
+
 
 ## Services
 
