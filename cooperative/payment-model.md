@@ -1,6 +1,6 @@
 # Payment Model
 
-Work obtained through **MAKER** will have a 10% fee applied to support administrative costs. At the end of the year, the remaining profits are distributed back to the members according to their annual activity.
+Work obtained through **Science & Design** will have a 10% fee applied to support administrative costs. At the end of the year, the remaining profits are distributed back to the members according to their annual activity.
 
 In the example below, two members have collectively earned $300,000, and one has no activity. Member 1's business of $100,000 is 33% of the total revenue that year, and member 3's $200,000 makes 67% of the revenue. MAKER's 10% fee is $30,000.
 
