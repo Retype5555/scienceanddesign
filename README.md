@@ -46,7 +46,7 @@ Good for companies needing consistent help throughout the year on a variety of p
 
 A 1-hour video chat where we'll review any project you're working on. You'll receive structured and actionable the next day.
 
-Good for companies that want an outside perspective on your work or junior designers needing guidance.
+Good for companies that want an outside perspective, freelancers that want their work reviewed, or students needing professional guidance.
 
 [Book Now](https://science-and-design.myshopify.com/products/design-review)
 
