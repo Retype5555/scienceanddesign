@@ -1,7 +1,7 @@
 # Science & Design
 [Website](https://scienceand.design)
 
-We are a 501c3 (application in-progress) with a global network of designers, researchers, engineers, writers, and technologists focused on helping make software in the public interest successful.
+We are a technology 501c3 (application in-progress) with a global network of designers, researchers, engineers, writers, and technologists focused on helping make software in the public interest successful.
 
 ## Resources
 
