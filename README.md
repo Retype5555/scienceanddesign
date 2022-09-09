@@ -1,36 +1,34 @@
 # Science & Design
-[Homepage](https://scienceand.design)
+[Website](https://scienceand.design)
 
-We are a global network of designers, researchers, engineers, writers, illustrators, and more focused on building software in the public interest.
+We are a global network of designers, researchers, engineers, writers, and technologists focused on helping make software in the public interest successful.
+
+## Resources
+
+[Pricing Model](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/pricing-model.md)
+
+[Payment Model](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/payment-model.md)
+
+[Decision Making](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/decision-making.md)
+
+[Our Donations](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/our-donations.md)
+
+[The 7 Cooperative Principles](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/cooperative/7-cooperative-principles.md)
 
 [Schedule a Call](https://cal.com/scienceanddesign/15min)
 
 ## Services
 
-### Design
-- Product Design
-- Interaction Design
-- Interface Design
-- Visual Design
-- Conversational Design
-- Motion Design
-- Animation
-- Video Editing
-
-### Research
-- Generative Research
-- Evaluative Research
-- RITE Testing
-- Surveys
-- User Interviews
-- Diary Studies
-
-### Security 
-- Threat Modeling
-- Server and Applicatiob Hardening
-- Intrusion Detection
-- Pen Testing
-- Opsec Training
+| Design          | Research | Software Engineering | SecOps |
+|-------------------|----------------|---------------|-------|
+| Product Design | Generative Research | Kotlin | Threat Modeling |
+| Interaction Design | Evaluative Research | Java | Server and Application Hardening |
+| Interface Design | RITE Testing | Flutter | Intrusion Detection |
+| Visual Design | Surveys | Swift | Penetration Testing |
+| Conversational Design | User Interviews | PHP/Laravel | Opsec Training |
+| Motion Design | Diary Studies | JS/NodeJS | |
+| Animation | | MQTT | |
+| Video Editing |  | HTML & CSS | |
 
 ----
 
@@ -46,7 +44,7 @@ Good for companies needing consistent help throughout the year on a variety of p
 
 ### 🔍 Critique
 
-A 1-hour video chat where we'll review any project you're working on. You'll receive structured and actionable feedback on interface, interaction, visual design, messaging, branding, typography, and more.
+A 1-hour video chat where we'll review any project you're working on. You'll receive structured and actionable the next day.
 
 Good for companies that want an outside perspective on your work or junior designers needing guidance.
 
