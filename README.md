@@ -25,7 +25,7 @@ We are a technology 501c3 (application in progress) with a global network of des
 | Interaction Design | Evaluative Research | Java | Server and Application Hardening |
 | Interface Design | RITE Testing | Flutter | Intrusion Detection |
 | Visual Design | Surveys | Swift | Penetration Testing |
-| Conversational Design | User Interviews | PHP/Laravel | Opsec Training |
+| Conversational Design | User Interviews | PHP/Laravel | OpSec Training |
 | Motion Design | Diary Studies | JS/NodeJS | |
 | Animation | | MQTT | |
 | Video Editing |  | HTML & CSS | |
