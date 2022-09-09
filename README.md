@@ -19,7 +19,7 @@ We are a technology 501c3 (application in progress) with a global network of des
 
 ## Services
 
-| Design          | Research | Software Engineering | SecOps |
+| 📐<br>Design          | 🧠<br>Research | 🧑‍💻<br>Software Engineering | 🔒<br>SecOps |
 |-------------------|----------------|---------------|-------|
 | Product Design | Generative Research | Kotlin | Threat Modeling |
 | Interaction Design | Evaluative Research | Java | Server and Application Hardening |
